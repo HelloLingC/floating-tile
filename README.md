@@ -6,7 +6,7 @@
 
 
 
-![截图1](https://github.com/HelloLingC/floating-tile/blob/master/screenshot/1.png)
+<img src="https://github.com/HelloLingC/floating-tile/blob/master/screenshot/1.png" alt="截图1"  width="706" height="1623">
 
 
 
