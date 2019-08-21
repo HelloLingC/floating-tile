@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/window_root_lay"
+    android:gravity="center"
+    android:background="@drawable/round_background"
+    android:elevation="3dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <com.lingc.nfloatingtile.widget.RoundImageView
+            android:id="@+id/window_icon_img"
+            android:layout_margin="3dp"
+            android:contentDescription="@string/app_name"
+            android:layout_width="42dp"
+            android:layout_height="42dp" />
+
+        <LinearLayout
+            android:id="@+id/window_messgae_lay"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/window_title_text"
+                    android:maxLines="1"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:maxLines="1"
+                    android:id="@+id/window_content_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+</LinearLayout>
